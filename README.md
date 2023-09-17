@@ -21,7 +21,7 @@ This is a comprehensive guide to set up and run a chatbot application built on L
 ### Steps
 1. **Clone the Repository**  
    ```
-   git clone <repository_url>
+   git clone https://github.com/agniiva/langchain-ddg-openai.git
    ```
 
 2. **Navigate to the Project Directory**  
