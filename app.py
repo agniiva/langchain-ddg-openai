@@ -68,7 +68,9 @@ class ChatbotTools:
             llm=llm,
             agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
             handle_parsing_errors=True,
-            verbose=True
+            verbose=True,
+            max_iterations=100,
+            max_execution_time=None
         )
         return agent
 
